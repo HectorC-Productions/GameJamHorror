@@ -1,0 +1,57 @@
+{
+	"name": "Bloodykey",
+	"plugin-id": "Sprite",
+	"sid": 414841447974848,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 102,
+						"height": 49,
+						"originX": 0.5,
+						"originY": 0.5102040816326531,
+						"originalSource": "C:\\Users\\colom\\Downloads\\Key.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5314720,
+						"collisionPoly": {
+							"points": [
+								0.06862745098039216,
+								0.12244897959183673,
+								0.5,
+								0.30612244897959184,
+								0.8333333333333334,
+								0.30612244897959184,
+								0.9803921568627451,
+								0.5102040816326531,
+								0.7647058823529411,
+								0.5510204081632653,
+								0.5,
+								0.5306122448979592,
+								0.0784313725490196,
+								0.8571428571428571,
+								0.00980392156862745,
+								0.5102040816326531
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 709372848583454,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

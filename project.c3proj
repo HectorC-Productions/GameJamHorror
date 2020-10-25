@@ -27,7 +27,8 @@
 	"objectTypes": {
 		"items": [
 			"Text",
-			"Door"
+			"Door",
+			"Bloodykey"
 		],
 		"subfolders": []
 	},

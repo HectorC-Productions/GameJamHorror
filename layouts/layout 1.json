@@ -104,6 +104,35 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "Bloodykey",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 4,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 293,
+						"y": 688,
+						"width": 102,
+						"height": 49,
+						"originX": 0.5,
+						"originY": 0.5102040816326531,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
 			"sid": 857302833874503,
