@@ -52,6 +52,23 @@
 					"parameters": {
 						"control": "right"
 					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "Player",
+					"sid": 347070190703472,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "Player",
+					"sid": 724981045782924,
+					"parameters": {
+						"animation": "\"walking\"",
+						"from": "beginning"
+					}
 				}
 			],
 			"sid": 450865633303567
@@ -80,6 +97,23 @@
 					"behaviorType": "Platform",
 					"parameters": {
 						"control": "left"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "Player",
+					"sid": 245405145052673,
+					"parameters": {
+						"state": "mirrored"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "Player",
+					"sid": 422600903141404,
+					"parameters": {
+						"animation": "\"walking\"",
+						"from": "beginning"
 					}
 				}
 			],
@@ -126,6 +160,15 @@
 					"behaviorType": "Platform",
 					"parameters": {
 						"state": "disabled"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "Player",
+					"sid": 450733941412043,
+					"parameters": {
+						"animation": "\"Standing\"",
+						"from": "beginning"
 					}
 				}
 			],
