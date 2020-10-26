@@ -11,14 +11,34 @@
 			{
 				"frames": [
 					{
-						"width": 250,
-						"height": 250,
+						"width": 94,
+						"height": 47,
 						"originX": 0.5,
-						"originY": 0.5,
-						"originalSource": "",
+						"originY": 0.6127659574468084,
+						"originalSource": "C:\\Users\\colom\\Downloads\\Old Note-2.png.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 7856429,
+						"imageSpriteId": 7081820,
+						"collisionPoly": {
+							"points": [
+								0.19604863221884497,
+								0.011347517730496451,
+								0.5,
+								0.011347517730496451,
+								0.7659574468085106,
+								0.011347517730496451,
+								0.9559270516717325,
+								0.6127659574468084,
+								0.6519756838905776,
+								0.9134751773049646,
+								0.5,
+								0.9134751773049646,
+								0.31003039513677816,
+								0.9134751773049646,
+								0.006079027355623098,
+								0.6127659574468084
+							]
+						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
