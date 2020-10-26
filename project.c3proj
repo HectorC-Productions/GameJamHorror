@@ -84,7 +84,8 @@
 			"Table",
 			"Note",
 			"NoteWithText",
-			"DarkHall"
+			"DarkHall",
+			"Void"
 		],
 		"subfolders": []
 	},
