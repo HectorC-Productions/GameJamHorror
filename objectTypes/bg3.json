@@ -1,0 +1,20 @@
+{
+	"name": "BG3",
+	"plugin-id": "TiledBg",
+	"sid": 451227500457137,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"image": {
+		"width": 1080,
+		"height": 1080,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "C:\\Users\\colom\\Downloads\\Background-2.png.png",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 640633,
+		"useCollisionPoly": true
+	}
+}

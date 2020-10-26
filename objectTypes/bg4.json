@@ -1,0 +1,20 @@
+{
+	"name": "BG4",
+	"plugin-id": "TiledBg",
+	"sid": 326445127943715,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"image": {
+		"width": 1080,
+		"height": 1080,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "C:\\Users\\colom\\Downloads\\Background-4.png.png",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 6284883,
+		"useCollisionPoly": true
+	}
+}
