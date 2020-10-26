@@ -1,5 +1,5 @@
 {
-	"name": "Room 1",
+	"name": "Room 4",
 	"layers": [
 		{
 			"name": "BG",
@@ -14,13 +14,13 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 7,
+					"uid": 19,
 					"instanceVariables": {
 						"DoorNumber": 0
 					},
 					"behaviors": {},
 					"world": {
-						"x": 1059,
+						"x": 2392,
 						"y": 708,
 						"width": 90,
 						"height": 180,
@@ -35,9 +35,38 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "Table",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 20,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 817,
+						"y": 752,
+						"width": 90,
+						"height": 90,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
-			"sid": 950769980841286,
+			"sid": 800025215447286,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"color": [
@@ -74,7 +103,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 6,
+					"uid": 21,
 					"instanceVariables": {},
 					"behaviors": {
 						"Solid": {
@@ -85,9 +114,9 @@
 						}
 					},
 					"world": {
-						"x": 960,
+						"x": 1250,
 						"y": 842,
-						"width": 1918,
+						"width": 2498,
 						"height": 90,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -110,7 +139,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 5,
+					"uid": 22,
 					"instanceVariables": {},
 					"behaviors": {
 						"Platform": {
@@ -134,8 +163,8 @@
 						}
 					},
 					"world": {
-						"x": 84,
-						"y": 737,
+						"x": 2356,
+						"y": 738,
 						"width": 90,
 						"height": 120,
 						"originX": 0.5,
@@ -149,38 +178,9 @@
 						"angle": 0,
 						"zElevation": 0
 					}
-				},
-				{
-					"type": "Bloodykey",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 8,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 1875,
-						"y": 775,
-						"width": 90,
-						"height": 45,
-						"originX": 0.5,
-						"originY": 0.5102040816326531,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
 				}
 			],
-			"sid": 178339093426086,
+			"sid": 617340026213344,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"color": [
@@ -208,7 +208,7 @@
 			"name": "UI",
 			"overriden": 0,
 			"instances": [],
-			"sid": 624261966496802,
+			"sid": 569207866522927,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"color": [
@@ -233,10 +233,10 @@
 			"global": false
 		}
 	],
-	"sid": 263897985754065,
+	"sid": 992493218244395,
 	"nonworld-instances": [],
 	"effectTypes": [],
-	"width": 1920,
+	"width": 2500,
 	"height": 1920,
 	"unboundedScrolling": false,
 	"eventSheet": "Event sheet 1"

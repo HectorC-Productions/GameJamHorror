@@ -72,7 +72,10 @@
 			"Player",
 			"WoodFloor",
 			"Keyboard",
-			"Audio"
+			"Audio",
+			"Table",
+			"Note",
+			"NoteWithText"
 		],
 		"subfolders": []
 	},
@@ -86,7 +89,9 @@
 		"items": [
 			"Layout 1",
 			"Room 1",
-			"Room 2"
+			"Room 2",
+			"Room 3",
+			"Room 4"
 		],
 		"subfolders": []
 	},

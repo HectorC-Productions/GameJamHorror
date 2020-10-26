@@ -15,7 +15,9 @@
 						"live-preview": false
 					},
 					"uid": 9,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"DoorNumber": 0
+					},
 					"behaviors": {},
 					"world": {
 						"x": 1185,
@@ -44,13 +46,77 @@
 						"live-preview": false
 					},
 					"uid": 12,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"DoorNumber": 0
+					},
 					"behaviors": {},
 					"world": {
 						"x": 224,
 						"y": 708,
 						"width": 90,
 						"height": 180,
+						"originX": 0.5326797385620915,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Door",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Door Opening",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 23,
+					"instanceVariables": {
+						"DoorNumber": 0
+					},
+					"behaviors": {},
+					"world": {
+						"x": 2392,
+						"y": 708,
+						"width": 90,
+						"height": 190,
+						"originX": 0.5326797385620915,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Door",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Door Opening",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 24,
+					"instanceVariables": {
+						"DoorNumber": 0
+					},
+					"behaviors": {},
+					"world": {
+						"x": 2278,
+						"y": 152,
+						"width": 90,
+						"height": 190,
 						"originX": 0.5326797385620915,
 						"originY": 0.5,
 						"color": [
@@ -162,7 +228,7 @@
 					},
 					"world": {
 						"x": 1161,
-						"y": 733,
+						"y": 738,
 						"width": 90,
 						"height": 120,
 						"originX": 0.5,

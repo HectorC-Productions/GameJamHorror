@@ -86,7 +86,9 @@
 						"live-preview": false
 					},
 					"uid": 3,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"DoorNumber": 0
+					},
 					"behaviors": {},
 					"world": {
 						"x": 518,

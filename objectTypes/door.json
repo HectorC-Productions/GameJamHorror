@@ -3,7 +3,14 @@
 	"plugin-id": "Sprite",
 	"sid": 272731910111651,
 	"isGlobal": false,
-	"instanceVariables": [],
+	"instanceVariables": [
+		{
+			"name": "DoorNumber",
+			"type": "number",
+			"desc": "",
+			"sid": 608130038305349
+		}
+	],
 	"behaviorTypes": [],
 	"effectTypes": [],
 	"animations": {

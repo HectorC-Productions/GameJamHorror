@@ -127,11 +127,43 @@
 					"parameters": {
 						"state": "disabled"
 					}
+				}
+			],
+			"sid": 887583452059238
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 883440998540781,
+					"parameters": {
+						"key": 38
+					}
 				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Player",
+					"sid": 394822382639214,
+					"parameters": {
+						"object": "Door"
+					}
+				},
+				{
+					"id": "pick-by-unique-id",
+					"objectClass": "Door",
+					"sid": 250834459068207,
+					"parameters": {
+						"unique-id": "7"
+					}
+				}
+			],
+			"actions": [
 				{
 					"id": "wait",
 					"objectClass": "System",
-					"sid": 646094462753976,
+					"sid": 197430673304672,
 					"parameters": {
 						"seconds": "2.2"
 					}
@@ -139,13 +171,298 @@
 				{
 					"id": "go-to-layout-by-name",
 					"objectClass": "System",
-					"sid": 439747144519494,
+					"sid": 600139768290348,
 					"parameters": {
 						"layout": "\"Room 2\""
 					}
 				}
 			],
-			"sid": 887583452059238
+			"sid": 665826129595645
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 173360606709432,
+					"parameters": {
+						"key": 38
+					}
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Player",
+					"sid": 159828791162610,
+					"parameters": {
+						"object": "Door"
+					}
+				},
+				{
+					"id": "pick-by-unique-id",
+					"objectClass": "Door",
+					"sid": 533391951215269,
+					"parameters": {
+						"unique-id": "9"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 354863067297621,
+					"parameters": {
+						"seconds": "0.2"
+					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "Door",
+					"sid": 790793444188157,
+					"parameters": {
+						"animation": "\"Door Closed\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "Player",
+					"sid": 739179726204413,
+					"behaviorType": "Platform",
+					"parameters": {
+						"state": "enabled"
+					}
+				}
+			],
+			"sid": 212268544745176
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 683534262122990,
+					"parameters": {
+						"key": 38
+					}
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Player",
+					"sid": 785999927131461,
+					"parameters": {
+						"object": "Door"
+					}
+				},
+				{
+					"id": "pick-by-unique-id",
+					"objectClass": "Door",
+					"sid": 173603941128918,
+					"parameters": {
+						"unique-id": "12"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 235661133812618,
+					"parameters": {
+						"seconds": "2.2"
+					}
+				},
+				{
+					"id": "go-to-layout-by-name",
+					"objectClass": "System",
+					"sid": 315879243617992,
+					"parameters": {
+						"layout": "\"Room 3\""
+					}
+				}
+			],
+			"sid": 889464720838602
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 771495647293876,
+					"parameters": {
+						"key": 38
+					}
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Player",
+					"sid": 808974411737422,
+					"parameters": {
+						"object": "Door"
+					}
+				},
+				{
+					"id": "pick-by-unique-id",
+					"objectClass": "Door",
+					"sid": 643644594301079,
+					"parameters": {
+						"unique-id": "16"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 481926514322504,
+					"parameters": {
+						"seconds": "2.2"
+					}
+				},
+				{
+					"id": "go-to-layout-by-name",
+					"objectClass": "System",
+					"sid": 936025328236796,
+					"parameters": {
+						"layout": "\"Room 2\""
+					}
+				}
+			],
+			"sid": 824900723983616
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 807618325726828,
+					"parameters": {
+						"key": 38
+					}
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Player",
+					"sid": 561105933023499,
+					"parameters": {
+						"object": "Door"
+					}
+				},
+				{
+					"id": "pick-by-unique-id",
+					"objectClass": "Door",
+					"sid": 782701303710942,
+					"parameters": {
+						"unique-id": "23"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 357807155498201,
+					"parameters": {
+						"seconds": "2.2"
+					}
+				},
+				{
+					"id": "go-to-layout-by-name",
+					"objectClass": "System",
+					"sid": 669406735371383,
+					"parameters": {
+						"layout": "\"Room 4\""
+					}
+				}
+			],
+			"sid": 646542330861673
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 983668824479220,
+					"parameters": {
+						"key": 38
+					}
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Player",
+					"sid": 784966890389420,
+					"parameters": {
+						"object": "Door"
+					}
+				},
+				{
+					"id": "pick-by-unique-id",
+					"objectClass": "Door",
+					"sid": 757990343898286,
+					"parameters": {
+						"unique-id": "19"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 741369093197846,
+					"parameters": {
+						"seconds": "2.2"
+					}
+				},
+				{
+					"id": "go-to-layout-by-name",
+					"objectClass": "System",
+					"sid": 929972529073195,
+					"parameters": {
+						"layout": "\"Room 2\""
+					}
+				}
+			],
+			"sid": 793665862208213
+		},
+		{
+			"eventType": "comment",
+			"text": "Plays the jumpscare at the door at the top of the staircase"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 812412065515458,
+					"parameters": {
+						"key": 38
+					}
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Player",
+					"sid": 537113549818636,
+					"parameters": {
+						"object": "Door"
+					}
+				},
+				{
+					"id": "pick-by-unique-id",
+					"objectClass": "Door",
+					"sid": 768749083627477,
+					"parameters": {
+						"unique-id": "24"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 732597972312807
 		}
 	],
 	"sid": 406116309281279
