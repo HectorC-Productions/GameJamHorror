@@ -1,0 +1,20 @@
+{
+	"name": "DarkHall",
+	"plugin-id": "TiledBg",
+	"sid": 631317667254403,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"image": {
+		"width": 1080,
+		"height": 1080,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "C:\\Users\\colom\\Downloads\\New Piskel-1.png.png",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 9575374,
+		"useCollisionPoly": true
+	}
+}
