@@ -198,7 +198,7 @@
 					"type": "Player",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "walking",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -229,8 +229,8 @@
 					"world": {
 						"x": 1161,
 						"y": 738,
-						"width": 90,
-						"height": 120,
+						"width": 23.04,
+						"height": 30.72,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [

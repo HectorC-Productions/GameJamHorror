@@ -118,7 +118,48 @@
 			"subfolders": []
 		},
 		"sound": {
-			"items": [],
+			"items": [
+				{
+					"name": "jumpscare2.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 361719971137377
+				},
+				{
+					"name": "jumpscare 1.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 629746967597733
+				},
+				{
+					"name": "Rising ambient.mp3",
+					"type": "audio/mpeg",
+					"sid": 248672968600348
+				},
+				{
+					"name": "dark_ambient.mp3",
+					"type": "audio/mpeg",
+					"sid": 549406987863029
+				},
+				{
+					"name": "thunder and lighting backgroudmusic.mp3",
+					"type": "audio/mpeg",
+					"sid": 947047841903616
+				},
+				{
+					"name": "potential opening song.mp3",
+					"type": "audio/mpeg",
+					"sid": 996423502239308
+				},
+				{
+					"name": "game over little girl voice.mp3",
+					"type": "audio/mpeg",
+					"sid": 999080643446708
+				},
+				{
+					"name": "horror-go.mp3",
+					"type": "audio/mpeg",
+					"sid": 902112835020029
+				}
+			],
 			"subfolders": []
 		},
 		"music": {
