@@ -11,14 +11,34 @@
 			{
 				"frames": [
 					{
-						"width": 250,
-						"height": 250,
+						"width": 160,
+						"height": 120,
 						"originX": 0.5,
 						"originY": 0.5,
-						"originalSource": "",
+						"originalSource": "/Users/student/Downloads/Table.png",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 4108290,
+						"imageSpriteId": 3926881,
+						"collisionPoly": {
+							"points": [
+								0.047619047619047616,
+								0.0625,
+								0.5,
+								0.03125,
+								0.9285714285714286,
+								0.0625,
+								0.5714285714285714,
+								0.5,
+								0.5714285714285714,
+								0.4375,
+								0.5,
+								0.78125,
+								0.4523809523809524,
+								0.375,
+								0.4523809523809524,
+								0.5
+							]
+						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
