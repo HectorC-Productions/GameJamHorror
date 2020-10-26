@@ -1,5 +1,152 @@
 {
 	"name": "Event sheet 1",
-	"events": [],
+	"events": [
+		{
+			"eventType": "comment",
+			"text": "Sets the animation of the door to closed"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 411092069382374
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Door",
+					"sid": 124774806703670,
+					"parameters": {
+						"animation": "\"Door Closed\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 299386052160468
+		},
+		{
+			"eventType": "comment",
+			"text": "Lets the player move left with the arrow key"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 246507007622336,
+					"parameters": {
+						"key": 39
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "Player",
+					"sid": 856902944271527,
+					"behaviorType": "Platform",
+					"parameters": {
+						"control": "right"
+					}
+				}
+			],
+			"sid": 450865633303567
+		},
+		{
+			"eventType": "comment",
+			"text": "Lets the player move right with the arrow key"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 577405724628998,
+					"parameters": {
+						"key": 37
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "Player",
+					"sid": 995390400362484,
+					"behaviorType": "Platform",
+					"parameters": {
+						"control": "left"
+					}
+				}
+			],
+			"sid": 226868724788513
+		},
+		{
+			"eventType": "comment",
+			"text": "Plays open door anmation, locks the player in place, and moves the game to the next screen"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 250942600280983,
+					"parameters": {
+						"key": 38
+					}
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Player",
+					"sid": 309251458101821,
+					"parameters": {
+						"object": "Door"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Door",
+					"sid": 294906314975936,
+					"parameters": {
+						"animation": "\"Door Opening\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "Player",
+					"sid": 884663095901438,
+					"behaviorType": "Platform",
+					"parameters": {
+						"state": "disabled"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 646094462753976,
+					"parameters": {
+						"seconds": "2.2"
+					}
+				},
+				{
+					"id": "go-to-layout-by-name",
+					"objectClass": "System",
+					"sid": 439747144519494,
+					"parameters": {
+						"layout": "\"Room 2\""
+					}
+				}
+			],
+			"sid": 887583452059238
+		}
+	],
 	"sid": 406116309281279
 }

@@ -21,6 +21,46 @@
 			"author": "Scirra",
 			"version": "r218",
 			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Keyboard",
+			"name": "Keyboard",
+			"author": "Scirra",
+			"version": "r218",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Audio",
+			"name": "Audio",
+			"author": "Scirra",
+			"version": "r218",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Platform",
+			"name": "Platform",
+			"author": "Scirra",
+			"version": "r218",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "scrollto",
+			"name": "Scroll To",
+			"author": "Scirra",
+			"version": "r218",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "solid",
+			"name": "Solid",
+			"author": "Scirra",
+			"version": "r218",
+			"bundled": false
 		}
 	],
 	"uniqueId": "izqp8nvmggb",
@@ -28,7 +68,11 @@
 		"items": [
 			"Text",
 			"Door",
-			"Bloodykey"
+			"Bloodykey",
+			"Player",
+			"WoodFloor",
+			"Keyboard",
+			"Audio"
 		],
 		"subfolders": []
 	},
@@ -40,7 +84,9 @@
 	},
 	"layouts": {
 		"items": [
-			"Layout 1"
+			"Layout 1",
+			"Room 1",
+			"Room 2"
 		],
 		"subfolders": []
 	},
