@@ -85,7 +85,8 @@
 			"Note",
 			"NoteWithText",
 			"DarkHall",
-			"Void"
+			"Void",
+			"Staircase"
 		],
 		"subfolders": []
 	},

@@ -1,0 +1,57 @@
+{
+	"name": "Staircase",
+	"plugin-id": "Sprite",
+	"sid": 319364369756044,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 472,
+						"height": 472,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "C:\\Users\\colom\\Downloads\\stair case-1.png.png",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 248679,
+						"collisionPoly": {
+							"points": [
+								0.3442173479561316,
+								0.3442173479561316,
+								0.5,
+								0.1884346959122632,
+								0.9673479561316052,
+								0.001495513459621135,
+								0.9673479561316052,
+								0.5,
+								0.9673479561316052,
+								0.9673479561316052,
+								0.5,
+								0.9673479561316052,
+								0.001495513459621135,
+								0.9673479561316052,
+								0.1884346959122632,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 522962410049462,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
