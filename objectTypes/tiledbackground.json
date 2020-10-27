@@ -1,0 +1,20 @@
+{
+	"name": "TiledBackground",
+	"plugin-id": "TiledBg",
+	"sid": 855387053810413,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"image": {
+		"width": 1280,
+		"height": 720,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "/Users/student/Downloads/haunted house.jpg",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 2531304,
+		"useCollisionPoly": true
+	}
+}

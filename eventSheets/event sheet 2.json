@@ -1,0 +1,54 @@
+{
+	"name": "Event sheet 2",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 621868432969835,
+					"parameters": {
+						"object": "StartButton"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 247106460250763,
+					"parameters": {
+						"layout": "Room 1"
+					}
+				}
+			],
+			"sid": 860872406074612
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 161337816476191
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 601468930382792,
+					"parameters": {
+						"audio-file": "potential opening song",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 222064661925389
+		}
+	],
+	"sid": 836495855512304
+}

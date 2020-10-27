@@ -47,6 +47,22 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Touch",
+			"name": "Touch",
+			"author": "Scirra",
+			"version": "r218",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Tilemap",
+			"name": "Tilemap",
+			"author": "Scirra",
+			"version": "r218",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "Platform",
 			"name": "Platform",
@@ -89,7 +105,16 @@
 			"Staircase",
 			"BG2",
 			"BG3",
-			"BG4"
+			"BG4",
+			"TiledBackground",
+			"HiddenEye",
+			"StartButton",
+			"Touch",
+			"TiledBackground2",
+			"Tilemap",
+			"HiddenEyes",
+			"Text4",
+			"Text5"
 		],
 		"subfolders": []
 	},
@@ -105,13 +130,15 @@
 			"Room 1",
 			"Room 2",
 			"Room 3",
-			"Room 4"
+			"Room 4",
+			"Opening intro"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Event sheet 1"
+			"Event sheet 1",
+			"Event sheet 2"
 		],
 		"subfolders": []
 	},
