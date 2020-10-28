@@ -14,12 +14,12 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 405079029528037,
+					"sid": 920595143935469,
 					"parameters": {
 						"audio-file": "potential opening song",
 						"loop": "not-looping",
 						"volume": "-20",
-						"tag-optional": "\"\""
+						"tag-optional": "\"Opening\""
 					}
 				},
 				{
@@ -74,6 +74,27 @@
 				}
 			],
 			"sid": 158484833240954
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-end-of-layout",
+					"objectClass": "System",
+					"sid": 477077244157843
+				}
+			],
+			"actions": [
+				{
+					"id": "stop",
+					"objectClass": "Audio",
+					"sid": 566993728759254,
+					"parameters": {
+						"tag": "\"Opening\""
+					}
+				}
+			],
+			"sid": 347506528729388
 		}
 	],
 	"sid": 836495855512304

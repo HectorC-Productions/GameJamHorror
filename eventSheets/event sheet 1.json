@@ -166,11 +166,11 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 745583578000373,
+					"sid": 904071510465673,
 					"parameters": {
 						"audio-file": "432652__gamedog74__key-open-door",
 						"loop": "not-looping",
-						"volume": "0",
+						"volume": "-6",
 						"tag-optional": "\"Door\""
 					}
 				},
@@ -632,6 +632,14 @@
 					}
 				},
 				{
+					"id": "stop",
+					"objectClass": "Audio",
+					"sid": 651149898828122,
+					"parameters": {
+						"tag": "\"Music\""
+					}
+				},
+				{
 					"id": "go-to-layout-by-name",
 					"objectClass": "System",
 					"sid": 280945591762053,
@@ -760,21 +768,37 @@
 			],
 			"actions": [
 				{
-					"id": "set-visible",
-					"objectClass": "NeedAKey",
-					"sid": 618921702196818,
-					"parameters": {
-						"visibility": "visible"
-					}
-				},
-				{
 					"id": "start-fade",
 					"objectClass": "NeedAKey",
-					"sid": 751131542261713,
+					"sid": 567804594922542,
 					"behaviorType": "Fade"
 				}
 			],
 			"sid": 767485588909867
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 829152014217862
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 218260304851089,
+					"parameters": {
+						"audio-file": "thunder and lighting backgroudmusic",
+						"loop": "not-looping",
+						"volume": "-20",
+						"tag-optional": "\"Music\""
+					}
+				}
+			],
+			"sid": 785871262708053
 		}
 	],
 	"sid": 406116309281279
