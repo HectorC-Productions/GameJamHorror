@@ -147,7 +147,8 @@
 			"PressUp",
 			"Jumpscare",
 			"NoteText",
-			"NeedAKey"
+			"NeedAKey",
+			"TheEnd"
 		],
 		"subfolders": []
 	},
@@ -159,13 +160,13 @@
 	},
 	"layouts": {
 		"items": [
-			"Layout 1",
 			"Room 1",
 			"Room 2",
 			"Room 3",
 			"Room 4",
 			"Opening intro",
-			"Jumpscare"
+			"Jumpscare",
+			"THE END"
 		],
 		"subfolders": []
 	},

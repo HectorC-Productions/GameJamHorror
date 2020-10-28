@@ -263,7 +263,7 @@
 				{
 					"type": "Instructions",
 					"properties": {
-						"text": "Controls:\nArrow Keys\nSpacebar",
+						"text": "Controls:\n\nSpacebar\n\nArrow Keys\n",
 						"enable-bbcode": true,
 						"font": "Arial",
 						"size": 27,
@@ -289,7 +289,7 @@
 						"x": 86,
 						"y": 490,
 						"width": 273,
-						"height": 186,
+						"height": 227,
 						"originX": 0,
 						"originY": 0,
 						"color": [

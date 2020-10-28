@@ -22,12 +22,28 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 698910541032205,
+					"sid": 189986345551834,
 					"parameters": {
 						"audio-file": "jumpscare 1",
 						"loop": "not-looping",
-						"volume": "30",
+						"volume": "35",
 						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 693013226051552,
+					"parameters": {
+						"seconds": "4"
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 678934563420027,
+					"parameters": {
+						"layout": "THE END"
 					}
 				}
 			],

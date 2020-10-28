@@ -555,9 +555,9 @@
 					"behaviors": {
 						"Fade": {
 							"properties": {
-								"fade-in-time": 4,
+								"fade-in-time": 1,
 								"wait-time": 1,
-								"fade-out-time": 4,
+								"fade-out-time": 2,
 								"destroy": false,
 								"enabled": false,
 								"live-preview": false

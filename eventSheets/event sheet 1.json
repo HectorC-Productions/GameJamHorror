@@ -754,11 +754,11 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 917389508256580,
+					"sid": 822228111640237,
 					"parameters": {
 						"audio-file": "horror-go",
 						"loop": "not-looping",
-						"volume": "-12",
+						"volume": "-8",
 						"tag-optional": "\"\""
 					}
 				}
@@ -778,6 +778,14 @@
 				}
 			],
 			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "NeedAKey",
+					"sid": 601489985214854,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
 				{
 					"id": "start-fade",
 					"objectClass": "NeedAKey",
