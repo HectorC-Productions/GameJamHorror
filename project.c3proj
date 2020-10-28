@@ -132,7 +132,8 @@
 			"Text4",
 			"Text5",
 			"Mouse",
-			"WodFloorTiled"
+			"WodFloorTiled",
+			"InvisibleWall"
 		],
 		"subfolders": []
 	},
