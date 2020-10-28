@@ -5,32 +5,6 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-object-clicked",
-					"objectClass": "Mouse",
-					"sid": 953552914065649,
-					"parameters": {
-						"mouse-button": "left",
-						"click-type": "clicked",
-						"object-clicked": "Text5"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "go-to-layout",
-					"objectClass": "System",
-					"sid": 247106460250763,
-					"parameters": {
-						"layout": "Room 1"
-					}
-				}
-			],
-			"sid": 860872406074612
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
 					"id": "on-start-of-layout",
 					"objectClass": "System",
 					"sid": 161337816476191
@@ -47,9 +21,59 @@
 						"volume": "-10",
 						"tag-optional": "\"\""
 					}
+				},
+				{
+					"id": "set-animation",
+					"objectClass": "Door",
+					"sid": 932596018284748,
+					"parameters": {
+						"animation": "\"Door Closed\"",
+						"from": "beginning"
+					}
 				}
 			],
 			"sid": 222064661925389
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 892927181496917,
+					"parameters": {
+						"key": 38
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "Door",
+					"sid": 266028618256554,
+					"parameters": {
+						"animation": "\"Door Opening\"",
+						"from": "beginning"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 722901067426148,
+					"parameters": {
+						"seconds": "2.2"
+					}
+				},
+				{
+					"id": "go-to-layout-by-name",
+					"objectClass": "System",
+					"sid": 401376970508990,
+					"parameters": {
+						"layout": "\"Room 1\""
+					}
+				}
+			],
+			"sid": 158484833240954
 		}
 	],
 	"sid": 836495855512304

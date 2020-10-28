@@ -200,37 +200,56 @@
 			"overriden": 0,
 			"instances": [
 				{
-					"type": "Text5",
+					"type": "Door",
 					"properties": {
-						"text": "Start",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 35,
-						"line-height": 0,
-						"bold": true,
-						"italic": true,
-						"color": [
-							0.9019607843137255,
-							0.0196078431372549,
-							0.0196078431372549,
-							1
-						],
-						"horizontal-alignment": "left",
-						"vertical-alignment": "top",
-						"wrapping": "word",
 						"initially-visible": true,
-						"origin": "top-left"
+						"initial-animation": "Door Opening",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
 					},
 					"uid": 41,
+					"instanceVariables": {
+						"DoorNumber": 0,
+						"DoorUnlocked": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 829.4771241830065,
+						"y": 454.5,
+						"width": 61,
+						"height": 123,
+						"originX": 0.5326797385620915,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Void",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 47,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 527,
-						"y": 570,
-						"width": 124,
-						"height": 57,
-						"originX": 0,
-						"originY": 0,
+						"x": 795,
+						"y": 1331,
+						"width": 1921,
+						"height": 1038,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
