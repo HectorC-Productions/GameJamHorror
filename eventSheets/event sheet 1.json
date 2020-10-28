@@ -760,9 +760,17 @@
 			],
 			"actions": [
 				{
+					"id": "set-visible",
+					"objectClass": "NeedAKey",
+					"sid": 618921702196818,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
 					"id": "start-fade",
 					"objectClass": "NeedAKey",
-					"sid": 567804594922542,
+					"sid": 751131542261713,
 					"behaviorType": "Fade"
 				}
 			],
