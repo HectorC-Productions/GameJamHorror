@@ -5,11 +5,13 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-touched-object",
-					"objectClass": "Touch",
-					"sid": 621868432969835,
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 953552914065649,
 					"parameters": {
-						"object": "StartButton"
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Text5"
 					}
 				}
 			],
@@ -38,11 +40,11 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 601468930382792,
+					"sid": 233775719831645,
 					"parameters": {
 						"audio-file": "potential opening song",
 						"loop": "not-looping",
-						"volume": "0",
+						"volume": "-10",
 						"tag-optional": "\"\""
 					}
 				}

@@ -1,0 +1,26 @@
+{
+	"name": "WodFloorTiled",
+	"plugin-id": "TiledBg",
+	"sid": 938323283727366,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 767961074886946
+		}
+	],
+	"effectTypes": [],
+	"image": {
+		"width": 90,
+		"height": 90,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "/Users/student/Downloads/WoodFloor.png",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 2035789,
+		"useCollisionPoly": true
+	}
+}

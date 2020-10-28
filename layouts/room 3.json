@@ -128,7 +128,7 @@
 					}
 				},
 				{
-					"type": "Staircase",
+					"type": "Void",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -136,14 +136,43 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 28,
+					"uid": 17,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 710,
-						"y": 367,
-						"width": 446,
-						"height": 446,
+						"x": 959,
+						"y": 1403,
+						"width": 1921,
+						"height": 1038,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Void",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 43,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1898,
+						"y": 372,
+						"width": 1921,
+						"height": 1038,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -186,42 +215,6 @@
 			"overriden": 0,
 			"instances": [
 				{
-					"type": "WoodFloor",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 17,
-					"instanceVariables": {},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
-					"world": {
-						"x": 1250,
-						"y": 842,
-						"width": 2498,
-						"height": 90,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "Player",
 					"properties": {
 						"initially-visible": true,
@@ -251,15 +244,60 @@
 							"properties": {
 								"enabled": true
 							}
+						},
+						"BoundToLayout": {
+							"properties": {
+								"bound-by": "edge"
+							}
 						}
 					},
 					"world": {
 						"x": 120,
 						"y": 737,
-						"width": 124.03999999999999,
-						"height": 132.72,
-						"originX": 0.5,
-						"originY": 0.5,
+						"width": 38.762499999999996,
+						"height": 111.9825,
+						"originX": 0.85,
+						"originY": 0.46296296296296297,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "WodFloorTiled",
+					"properties": {
+						"initially-visible": true,
+						"origin": "top-left",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0
+					},
+					"uid": 10,
+					"instanceVariables": {},
+					"behaviors": {
+						"Solid": {
+							"properties": {
+								"enabled": true,
+								"tags": ""
+							}
+						}
+					},
+					"world": {
+						"x": -3,
+						"y": 797,
+						"width": 941,
+						"height": 90,
+						"originX": 0,
+						"originY": 0,
 						"color": [
 							1,
 							1,
