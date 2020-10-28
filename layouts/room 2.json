@@ -181,14 +181,7 @@
 					},
 					"uid": 46,
 					"instanceVariables": {},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"tags": ""
-							}
-						}
-					},
+					"behaviors": {},
 					"world": {
 						"x": 2397.8089090908747,
 						"y": 628.8389090909702,
@@ -236,6 +229,38 @@
 			"overriden": 0,
 			"instances": [
 				{
+					"type": "Door",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Door Opening",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 23,
+					"instanceVariables": {
+						"DoorNumber": 0,
+						"DoorUnlocked": false
+					},
+					"behaviors": {},
+					"world": {
+						"x": 2392,
+						"y": 708,
+						"width": 90,
+						"height": 190,
+						"originX": 0.5326797385620915,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
 					"type": "Player",
 					"properties": {
 						"initially-visible": true,
@@ -279,38 +304,6 @@
 						"height": 108.96875,
 						"originX": 0.85,
 						"originY": 0.46296296296296297,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Door",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Door Opening",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 23,
-					"instanceVariables": {
-						"DoorNumber": 0,
-						"DoorUnlocked": false
-					},
-					"behaviors": {},
-					"world": {
-						"x": 2392,
-						"y": 708,
-						"width": 90,
-						"height": 190,
-						"originX": 0.5326797385620915,
-						"originY": 0.5,
 						"color": [
 							1,
 							1,

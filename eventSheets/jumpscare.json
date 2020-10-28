@@ -1,0 +1,38 @@
+{
+	"name": "Jumpscare",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 445390632372766
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "Jumpscare",
+					"sid": 239448497491597,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 346800344375848,
+					"parameters": {
+						"audio-file": "jumpscare 1",
+						"loop": "not-looping",
+						"volume": "15",
+						"tag-optional": "\"\""
+					}
+				}
+			],
+			"sid": 848514292846266
+		}
+	],
+	"sid": 670330684043192
+}

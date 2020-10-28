@@ -136,7 +136,8 @@
 			"InvisibleWall",
 			"BlockableEntrance",
 			"Instructions",
-			"PressUp"
+			"PressUp",
+			"Jumpscare"
 		],
 		"subfolders": []
 	},
@@ -153,14 +154,16 @@
 			"Room 2",
 			"Room 3",
 			"Room 4",
-			"Opening intro"
+			"Opening intro",
+			"Jumpscare"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
 			"Event sheet 1",
-			"Event sheet 2"
+			"Event sheet 2",
+			"Jumpscare"
 		],
 		"subfolders": []
 	},
