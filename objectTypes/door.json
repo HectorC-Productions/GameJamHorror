@@ -9,6 +9,12 @@
 			"type": "number",
 			"desc": "",
 			"sid": 608130038305349
+		},
+		{
+			"name": "DoorUnlocked",
+			"type": "boolean",
+			"desc": "",
+			"sid": 397687622813083
 		}
 	],
 	"behaviorTypes": [],

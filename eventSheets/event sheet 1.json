@@ -178,6 +178,36 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 951871094692875,
+					"parameters": {
+						"object": "Bloodykey"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "Door",
+					"sid": 648084685533006,
+					"parameters": {
+						"instance-variable": "DoorUnlocked",
+						"value": "true"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Bloodykey",
+					"sid": 184066964498659
+				}
+			],
+			"sid": 349915322172672
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
 					"id": "on-key-pressed",
 					"objectClass": "Keyboard",
 					"sid": 883440998540781,
@@ -199,6 +229,14 @@
 					"sid": 250834459068207,
 					"parameters": {
 						"unique-id": "7"
+					}
+				},
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "Door",
+					"sid": 391893606709243,
+					"parameters": {
+						"instance-variable": "DoorUnlocked"
 					}
 				}
 			],

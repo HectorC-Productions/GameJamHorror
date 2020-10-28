@@ -49,7 +49,8 @@
 					},
 					"uid": 16,
 					"instanceVariables": {
-						"DoorNumber": 0
+						"DoorNumber": 0,
+						"DoorUnlocked": false
 					},
 					"behaviors": {},
 					"world": {
