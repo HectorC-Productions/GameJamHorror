@@ -134,7 +134,9 @@
 			"Mouse",
 			"WodFloorTiled",
 			"InvisibleWall",
-			"BlockableEntrance"
+			"BlockableEntrance",
+			"Instructions",
+			"PressUp"
 		],
 		"subfolders": []
 	},
