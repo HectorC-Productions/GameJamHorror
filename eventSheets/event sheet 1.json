@@ -750,6 +750,17 @@
 					"id": "destroy",
 					"objectClass": "Note",
 					"sid": 941268385096753
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 917389508256580,
+					"parameters": {
+						"audio-file": "horror-go",
+						"loop": "not-looping",
+						"volume": "-12",
+						"tag-optional": "\"\""
+					}
 				}
 			],
 			"sid": 629620062567197
