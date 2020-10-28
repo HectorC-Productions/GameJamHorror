@@ -164,6 +164,17 @@
 					}
 				},
 				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 745583578000373,
+					"parameters": {
+						"audio-file": "432652__gamedog74__key-open-door",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"Door\""
+					}
+				},
+				{
 					"id": "set-enabled",
 					"objectClass": "Player",
 					"sid": 884663095901438,
@@ -285,6 +296,14 @@
 					"behaviorType": "Platform",
 					"parameters": {
 						"state": "enabled"
+					}
+				},
+				{
+					"id": "stop",
+					"objectClass": "Audio",
+					"sid": 430933994591272,
+					"parameters": {
+						"tag": "\"Door\""
 					}
 				}
 			],
@@ -509,6 +528,17 @@
 					}
 				},
 				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 598490069883581,
+					"parameters": {
+						"audio-file": "446129__justinvoke__collect-1",
+						"loop": "not-looping",
+						"volume": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
 					"id": "set-boolean-instvar",
 					"objectClass": "Door",
 					"sid": 488631765832642,
@@ -583,6 +613,14 @@
 					"sid": 814632529125727,
 					"parameters": {
 						"seconds": "1.6"
+					}
+				},
+				{
+					"id": "stop",
+					"objectClass": "Audio",
+					"sid": 972825066500193,
+					"parameters": {
+						"tag": "\"Door\""
 					}
 				},
 				{

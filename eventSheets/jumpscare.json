@@ -22,11 +22,11 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 346800344375848,
+					"sid": 698910541032205,
 					"parameters": {
 						"audio-file": "jumpscare 1",
 						"loop": "not-looping",
-						"volume": "15",
+						"volume": "30",
 						"tag-optional": "\"\""
 					}
 				}
