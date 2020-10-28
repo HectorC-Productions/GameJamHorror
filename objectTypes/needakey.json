@@ -1,0 +1,15 @@
+{
+	"name": "NeedAKey",
+	"plugin-id": "Text",
+	"sid": 727255637816836,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Fade",
+			"name": "Fade",
+			"sid": 862614765711108
+		}
+	],
+	"effectTypes": []
+}

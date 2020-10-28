@@ -373,7 +373,61 @@
 		{
 			"name": "UI",
 			"overriden": 0,
-			"instances": [],
+			"instances": [
+				{
+					"type": "NoteText",
+					"properties": {
+						"text": "Run while you still can",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 17,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0.6588235294117647,
+							0.043137254901960784,
+							0.043137254901960784,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": false,
+						"origin": "top-left"
+					},
+					"uid": 55,
+					"instanceVariables": {},
+					"behaviors": {
+						"Fade": {
+							"properties": {
+								"fade-in-time": 1,
+								"wait-time": 4,
+								"fade-out-time": 3,
+								"destroy": true,
+								"enabled": true,
+								"live-preview": false
+							}
+						}
+					},
+					"world": {
+						"x": 644,
+						"y": 578,
+						"width": 245,
+						"height": 41,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				}
+			],
 			"sid": 506213045146786,
 			"effectTypes": [],
 			"isInitiallyVisible": true,

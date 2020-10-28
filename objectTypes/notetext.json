@@ -1,0 +1,15 @@
+{
+	"name": "NoteText",
+	"plugin-id": "Text",
+	"sid": 810492167890856,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Fade",
+			"name": "Fade",
+			"sid": 271962183829296
+		}
+	],
+	"effectTypes": []
+}

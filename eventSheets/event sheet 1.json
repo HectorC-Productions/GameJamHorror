@@ -509,9 +509,17 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "on-collision-with-another-object",
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 649038530610655,
+					"parameters": {
+						"key": 38
+					}
+				},
+				{
+					"id": "is-overlapping-another-object",
 					"objectClass": "Player",
-					"sid": 766863375458308,
+					"sid": 522951240038339,
 					"parameters": {
 						"object": "Bloodykey"
 					}
@@ -689,6 +697,76 @@
 				}
 			],
 			"sid": 729950995227549
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 432889289349872,
+					"parameters": {
+						"key": 38
+					}
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "Player",
+					"sid": 651681187535449,
+					"parameters": {
+						"object": "Note"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "NoteText",
+					"sid": 858494163049426,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 870006927397634,
+					"parameters": {
+						"audio-file": "63514__florian-reinke__paper5",
+						"loop": "not-looping",
+						"volume": "10",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Note",
+					"sid": 941268385096753
+				}
+			],
+			"sid": 629620062567197
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 220708113671494,
+					"parameters": {
+						"object": "BlockableEntrance"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "start-fade",
+					"objectClass": "NeedAKey",
+					"sid": 567804594922542,
+					"behaviorType": "Fade"
+				}
+			],
+			"sid": 767485588909867
 		}
 	],
 	"sid": 406116309281279

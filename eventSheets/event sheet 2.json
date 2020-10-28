@@ -14,11 +14,11 @@
 				{
 					"id": "play",
 					"objectClass": "Audio",
-					"sid": 233775719831645,
+					"sid": 405079029528037,
 					"parameters": {
 						"audio-file": "potential opening song",
 						"loop": "not-looping",
-						"volume": "-10",
+						"volume": "-20",
 						"tag-optional": "\"\""
 					}
 				},

@@ -334,10 +334,10 @@
 						}
 					},
 					"world": {
-						"x": 2380.454545454552,
-						"y": 274.0909090909113,
+						"x": 2382,
+						"y": 97,
 						"width": 93.63636363636306,
-						"height": 187.27272727272717,
+						"height": 351.27272727272714,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -369,6 +369,59 @@
 						"height": 1038,
 						"originX": 0.5,
 						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "NeedAKey",
+					"properties": {
+						"text": "It's locked, I need a key",
+						"enable-bbcode": true,
+						"font": "Arial",
+						"size": 14,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"initially-visible": false,
+						"origin": "top-left"
+					},
+					"uid": 56,
+					"instanceVariables": {},
+					"behaviors": {
+						"Fade": {
+							"properties": {
+								"fade-in-time": 4,
+								"wait-time": 4,
+								"fade-out-time": 4,
+								"destroy": false,
+								"enabled": true,
+								"live-preview": false
+							}
+						}
+					},
+					"world": {
+						"x": 2122,
+						"y": 496,
+						"width": 200,
+						"height": 30,
+						"originX": 0,
+						"originY": 0,
 						"color": [
 							1,
 							1,
