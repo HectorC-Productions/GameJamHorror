@@ -2,6 +2,16 @@
 	"name": "Event sheet 1",
 	"events": [
 		{
+			"eventType": "variable",
+			"name": "KeysCollected",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 870075797189714
+		},
+		{
 			"eventType": "comment",
 			"text": "Sets the animation of the door to closed"
 		},
@@ -173,41 +183,6 @@
 				}
 			],
 			"sid": 887583452059238
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-collision-with-another-object",
-					"objectClass": "Player",
-					"sid": 951871094692875,
-					"parameters": {
-						"object": "Bloodykey"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "set-boolean-instvar",
-					"objectClass": "Door",
-					"sid": 648084685533006,
-					"parameters": {
-						"instance-variable": "DoorUnlocked",
-						"value": "true"
-					}
-				},
-				{
-					"id": "destroy",
-					"objectClass": "Bloodykey",
-					"sid": 184066964498659
-				},
-				{
-					"id": "destroy",
-					"objectClass": "BlockableEntrance",
-					"sid": 689697893394677
-				}
-			],
-			"sid": 349915322172672
 		},
 		{
 			"eventType": "block",
@@ -525,6 +500,15 @@
 			],
 			"actions": [
 				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 551102414845796,
+					"parameters": {
+						"variable": "KeysCollected",
+						"value": "1"
+					}
+				},
+				{
 					"id": "set-boolean-instvar",
 					"objectClass": "Door",
 					"sid": 488631765832642,
@@ -540,6 +524,29 @@
 				}
 			],
 			"sid": 315053402170859
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-eventvar",
+					"objectClass": "System",
+					"sid": 226616041507145,
+					"parameters": {
+						"variable": "KeysCollected",
+						"comparison": 0,
+						"value": "1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "BlockableEntrance",
+					"sid": 105489156132553
+				}
+			],
+			"sid": 437252906842104
 		},
 		{
 			"eventType": "block",
