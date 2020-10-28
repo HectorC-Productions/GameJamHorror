@@ -133,7 +133,8 @@
 			"Text5",
 			"Mouse",
 			"WodFloorTiled",
-			"InvisibleWall"
+			"InvisibleWall",
+			"BlockableEntrance"
 		],
 		"subfolders": []
 	},

@@ -84,9 +84,9 @@
 					"behaviors": {},
 					"world": {
 						"x": 817,
-						"y": 752,
-						"width": 57.599999999999994,
-						"height": 43.199999999999996,
+						"y": 764,
+						"width": 79.5748704051725,
+						"height": 59.68115280387938,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -208,6 +208,35 @@
 						"height": 108.96875,
 						"originX": 0.85,
 						"originY": 0.46296296296296297,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Bloodykey",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 8,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 815,
+						"y": 725,
+						"width": 59.43353635215942,
+						"height": 28.55140471819423,
+						"originX": 0.5,
+						"originY": 0.5102040816326531,
 						"color": [
 							1,
 							1,

@@ -200,6 +200,11 @@
 					"id": "destroy",
 					"objectClass": "Bloodykey",
 					"sid": 184066964498659
+				},
+				{
+					"id": "destroy",
+					"objectClass": "BlockableEntrance",
+					"sid": 689697893394677
 				}
 			],
 			"sid": 349915322172672
@@ -229,14 +234,6 @@
 					"sid": 250834459068207,
 					"parameters": {
 						"unique-id": "7"
-					}
-				},
-				{
-					"id": "is-boolean-instance-variable-set",
-					"objectClass": "Door",
-					"sid": 391893606709243,
-					"parameters": {
-						"instance-variable": "DoorUnlocked"
 					}
 				}
 			],
@@ -518,6 +515,36 @@
 			"eventType": "block",
 			"conditions": [
 				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Player",
+					"sid": 766863375458308,
+					"parameters": {
+						"object": "Bloodykey"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-boolean-instvar",
+					"objectClass": "Door",
+					"sid": 488631765832642,
+					"parameters": {
+						"instance-variable": "DoorUnlocked",
+						"value": "true"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Bloodykey",
+					"sid": 720844888664499
+				}
+			],
+			"sid": 315053402170859
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
 					"id": "on-key-pressed",
 					"objectClass": "Keyboard",
 					"sid": 812412065515458,
@@ -539,6 +566,14 @@
 					"sid": 768749083627477,
 					"parameters": {
 						"unique-id": "24"
+					}
+				},
+				{
+					"id": "is-boolean-instance-variable-set",
+					"objectClass": "Door",
+					"sid": 388108182324020,
+					"parameters": {
+						"instance-variable": "DoorUnlocked"
 					}
 				}
 			],

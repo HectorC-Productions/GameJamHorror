@@ -259,35 +259,6 @@
 					}
 				},
 				{
-					"type": "Bloodykey",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 8,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 1875,
-						"y": 775,
-						"width": 90,
-						"height": 45,
-						"originX": 0.5,
-						"originY": 0.5102040816326531,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "WodFloorTiled",
 					"properties": {
 						"initially-visible": true,
